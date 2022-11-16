@@ -17,20 +17,22 @@ Use the tokens **_archer style, arcane style or modern diseny style_** in your p
 **If you enjoy my work and want to test new models before release, please consider supporting me**
 [![Become A Patreon](https://badgen.net/badge/become/a%20patron/F96854)](https://patreon.com/user?u=79196446)
 
-**Single Style Characters from the model:**
-![Videogame Samples](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-01s.jpg)
 **Multi Style Characters from the model:**
-![Misc. Samples](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-02s.jpg)
+![Multi Samples](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg)
+**Single Style Characters from the model:**
+![Single Samples](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-01.jpg)
 **Multi Style Scenes from the model:**
-![Misc. Samples](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-02s.jpg)
+![Misc. Samples](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-03.jpg)
 
-#### Prompt and settings for Tony Stark:
-**(redshift style) robert downey jr as ironman Negative prompt: glasses helmet**
-_Steps: 40, Sampler: DPM2 Karras, CFG scale: 7, Seed: 908018284, Size: 512x704_
+**You can find animated GIFs of Batman and Lara Croft showing the weighting and prompt influence on the bottom of the page.**
 
-#### Prompt and settings for the Ford Mustang:
-**redshift style Ford Mustang**
-_Steps: 20, Sampler: DPM2 Karras, CFG scale: 7, Seed: 579593863, Size: 704x512_
+#### Prompt and settings for Gal Gadot:
+**arcane archer modern disney gal gadot**
+_Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 598801516, Size: 512x768_
+
+#### Prompt and settings for the Audi TT:
+**(audi TT car) arcane modern disney style archer**
+_Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 713702776, Size: 768x512_
 
 ### 🧨 Diffusers
 
@@ -53,7 +55,6 @@ image = pipe(prompt).images[0]
 image.save("./magical_princess.png")
 ```
 
-This model was trained using the diffusers based dreambooth training by ShivamShrirao using prior-preservation loss and the _train-text-encoder_ flag in 11.000 steps.
 
 ## License
 
@@ -67,7 +68,7 @@ The CreativeML OpenRAIL License specifies:
 
 
 ## Video Demos
-#Batman
+# Batman
 ![Batman](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/batman-demo-01.gif)
-#Lara Croft
+# Lara Croft
 ![Lara Croft](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/laracroft-demo-01.gif)
