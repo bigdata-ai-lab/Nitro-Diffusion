@@ -34,3 +34,5 @@ saved_model/**/* filter=lfs diff=lfs merge=lfs -text
 *tfevents* filter=lfs diff=lfs merge=lfs -text
 laracroft-demo-01.gif filter=lfs diff=lfs merge=lfs -text
 batman-demo-01.gif filter=lfs diff=lfs merge=lfs -text
+nitro-diff-samples-01.jpg filter=lfs diff=lfs merge=lfs -text
+nitro-diff-samples-02.jpg filter=lfs diff=lfs merge=lfs -text
