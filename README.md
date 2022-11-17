@@ -12,7 +12,7 @@ tags:
 ### Nitro Diffusion
 
 Welcome to Nitro Diffusion - the first Multi-Style Model trained from scratch! This is a fine-tuned Stable Diffusion model trained on three artstyles simultaniously while keeping each style separate from the others. This allows for high control of mixing, weighting and single style use.
-Use the tokens **_archer style, arcane style or modern diseny style_** in your prompts for the effect. You can also use more than one for a mixed style like in the examples down below:
+Use the tokens **_archer style, arcane style or modern disney style_** in your prompts for the effect. You can also use more than one for a mixed style like in the examples down below:
 
 **If you enjoy my work and want to test new models before release, please consider supporting me**
 [![Become A Patreon](https://badgen.net/badge/become/a%20patron/F96854)](https://patreon.com/user?u=79196446)
