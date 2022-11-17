@@ -7,6 +7,7 @@ tags:
 - stable-diffusion
 - text-to-image
 - image-to-image
+- diffusers
 
 ---
 ### Nitro Diffusion
