@@ -35,6 +35,13 @@ _Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 598801516, Size: 512x768_
 **(audi TT car) arcane modern disney style archer**
 _Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 713702776, Size: 768x512_
 
+
+## Gradio
+
+We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Nitro-Diffusion:
+[![Open In Spaces](https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565)](https://huggingface.co/spaces/nitrosocke/Nitro-Diffusion-Demo)
+
+
 ### 🧨 Diffusers
 
 This model can be used just like any other Stable Diffusion model. For more information,
