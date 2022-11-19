@@ -3,11 +3,11 @@
   "_diffusers_version": "0.8.0.dev0",
   "feature_extractor": [
     "transformers",
-    "CLIPImageProcessor"
+    "CLIPFeatureExtractor"
   ],
   "safety_checker": [
-    null,
-    null
+    "stable_diffusion",
+    "StableDiffusionSafetyChecker"
   ],
   "scheduler": [
     "diffusers",
