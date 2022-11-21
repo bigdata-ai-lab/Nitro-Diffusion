@@ -2,7 +2,7 @@
 language:
 - en
 license: creativeml-openrail-m
-thumbnail: "https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-01s.jpg"
+thumbnail: "https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg"
 tags:
 - stable-diffusion
 - text-to-image
